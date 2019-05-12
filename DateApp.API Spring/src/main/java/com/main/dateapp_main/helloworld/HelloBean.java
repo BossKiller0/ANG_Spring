@@ -1,4 +1,4 @@
-package com.main.dateapp_main;
+package com.main.dateapp_main.helloworld;
 
 public class HelloBean {
 

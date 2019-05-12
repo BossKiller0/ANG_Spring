@@ -1,4 +1,4 @@
-package com.main.dateapp_main;
+package com.main.dateapp_main.helloworld;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +16,7 @@ public class HelloWorldController {
 	
 	@GetMapping(path = "/hellobeans")
 	public HelloBean helloWorldBeans() {
+//		throw new RuntimeException("Some Thing");
 		return new HelloBean("Hello World");
 	}
 	
