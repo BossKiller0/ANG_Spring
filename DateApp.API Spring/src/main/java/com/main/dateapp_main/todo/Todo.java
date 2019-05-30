@@ -8,7 +8,7 @@ public class Todo {
 	private String username;
 	private String description;
 	private Date targetDate;
-	
+	private boolean isDone;
 	public Todo(long id, String username, String description, Date targetDate, boolean isDone) {
 		super();
 		this.id = id;
@@ -17,7 +17,7 @@ public class Todo {
 		this.targetDate = targetDate;
 		this.isDone = isDone;
 	}
-	private boolean isDone;
+	
 	
 	public long getId() {
 		return id;
